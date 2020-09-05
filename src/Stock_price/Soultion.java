@@ -31,5 +31,6 @@ class Solution {
         Solution s = new Solution();
         int[] test = {1,2,3,2,3};
         s.solution(test);
+
     }
 }
