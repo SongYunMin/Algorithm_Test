@@ -7,7 +7,8 @@ class Solution {
         for(int i=0;i<phone_book.length;i++){
             for(int j=0;j<phone_book.length;j++){
                 if(i!=j && !phone_book[i].equals(phone_book[j])){
-                    if(phone_book[i].indexOf(phone_book[i]) <= phone_book[j].indexOf(phone_book[i])){
+                    if(phone_book[i].indexOf(phone_book[i])
+                            <= phone_book[j].indexOf(phone_book[i])){
                         return false;
                     }
                 }
