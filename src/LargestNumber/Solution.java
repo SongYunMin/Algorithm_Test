@@ -17,6 +17,9 @@ public class Solution {
         Arrays.sort(arr, new Comparator<String>() {
             @Override
             public int compare(String s1, String s2) {
+                System.out.println(s2+s1);
+                System.out.println(s1+s2);
+                System.out.println((s2+s1).compareTo(s1+s2));
                 return (s2+s1).compareTo(s1+s2);
             }
         });
